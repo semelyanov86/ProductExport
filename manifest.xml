@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<module>
+<exporttime>2018-10-20 22:09:48</exporttime>
+<name>VDXMLExport</name>
+<label>XML Export</label>
+<type>extension</type>
+<version>1.0</version>
+<dependencies>
+<vtiger_version>7.0.0</vtiger_version>
+<vtiger_max_version>7.*</vtiger_max_version>
+</dependencies>
+<tables>
+<table>
+<name>vtiger_vdxmlexport</name>
+<sql><![CDATA[CREATE TABLE `vtiger_vdxmlexport` (
+	`id` Int( 255 ) AUTO_INCREMENT NOT NULL,
+	`name` VarChar( 255 ) NOT NULL,
+	`value` VarChar( 255 ) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8]]></sql>
+</table>
+</tables>
+<crons>
+</crons>
+</module>
